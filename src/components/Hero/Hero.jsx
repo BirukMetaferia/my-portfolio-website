@@ -17,7 +17,7 @@ export const Hero = () => {
           and multifaceted operations.
            Reach out if you'd like to learn more!
         </p>
-        <a href="mailto:myemail@email.com" className={styles.contactBtn}>
+        <a href="mailto:birukm555@email.com" className={styles.contactBtn}>
           Contact Me
         </a>
       </div>

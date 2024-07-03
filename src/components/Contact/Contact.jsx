@@ -11,10 +11,17 @@ export const Contact = () => {
         <p>Feel free to reach out!</p>
       </div>
       <ul className={styles.links}>
-        <li className={styles.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="mailto:birukm555@gemail.com">birukm555@gemail.com</a>
-        </li>
+      <li className={styles.link}>
+  <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
+  <a 
+    href="mailto:birukm555@gmail.com"
+    onClick={() => console.log('Email link clicked')}
+  >
+    birukm555@gmail.com
+  </a>
+</li>
+
+
         <li className={styles.link}>
           <img
             src={getImageUrl("contact/linkedinIcon.png")}
