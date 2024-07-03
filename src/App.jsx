@@ -5,13 +5,13 @@ import { Experience } from "./components/Experience/Experience";
 import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
-
+import ContactMeButton from "./components/Button/Button";
 function App() {
   return (
     <div className={styles.App}>
       <Navbar />
       <Hero />
-     
+      <ContactMeButton />
       <About />
       <Experience />
       <Projects />
